@@ -1,0 +1,54 @@
+body {
+    padding: 5em 15em;
+    font: normal 40px/50px 'Times New Roman', Times, serif;
+    background-color:rgb(20, 20, 20);
+    color: white;
+    
+    
+  }
+  .p1 {
+    height: 50px;
+    float: left;
+    margin-right: 0.3em;
+  }
+  p {
+    float:left;
+    overflow:hidden;
+    position: absolute;
+    height: 50px;
+    top: 205px;
+    left: 545px;
+  }
+  span {
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: bisque;
+    position: relative;
+    animation: move 4s;
+    animation-iteration-count: infinite;
+  animation-delay: 1s;
+  }
+  
+  @keyframes move {
+  
+  10%  { top: 0px;}
+  20% { top: -50px; }
+  30% { top:-50px;
+      color: blue; }
+  40% { top: -100px;
+      color: blueviolet; }
+  50% { top: -100px;
+      color: pink; }
+  60% { top:-150px;
+      color:chartreuse }
+  70% { top: -150px;
+      color:darkslateblue }
+  80% {top: -200px;
+       color:firebrick}
+  100% {top: -200px;
+       color: darkviolet; }
+  }
+  
+  
+  
+  
